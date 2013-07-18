@@ -1,5 +1,5 @@
 Lungo.init({
-    name: 'Crm.js && php',
+    name: 'Crm.js',
     version:'1.0',
     resources:[
 
@@ -7,5 +7,5 @@ Lungo.init({
 });
 
 Lungo.dom("#btnLogin").tap(function (event){
-	Lungo.Router.section("ppal.php")
+	Lungo.Router.section("ppal.html")
 });
